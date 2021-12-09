@@ -1,0 +1,120 @@
+
+/* ##############comInterview_contents################## */
+.common_zone {
+  padding: 100px 0 80px;
+}
+
+.comInterview_contents #tab1 .group {
+  border: 1px solid #DCDCDC;
+  padding: 20px 53px 110px;
+  margin-top: 110px;
+}
+
+.comInterview_contents #tab1 .tab_lst::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.comInterview_contents #tab1 .tab_lst>li {
+  float: left;
+}
+
+.comInterview_contents #tab1 .tab_lst>li>a {
+	display: block;
+	width: 361px;
+	height: 54px;
+	line-height: 54px;
+	background: transparent;
+	font-size: 18px;
+	font-weight: normal;
+	color: #AEAEAE;
+	text-align: center;
+  border: 1px solid #DEDEDE;
+  border-bottom: 2px solid #3B61D5;
+}
+
+.comInterview_contents #tab1 .tab_lst>li.on>a {
+	background: transparent;
+	color: #3B61D5;
+  opacity: 1;
+  border: 2px solid #3B61D5;
+  border-bottom: none;
+}
+
+.comInterview_contents #tab1 .group>div {
+	width: 100%;
+	background: transparent;
+	color: #111;
+	text-align: left;
+	display: none;
+}
+.comInterview_contents #tab1 .group>div.on {
+	display: block;
+}
+
+#tab1 .group .on section {
+  margin-bottom: 30px;
+}
+
+#tab1 .group .on section h2 {
+  font-size: 30px;
+  color: #090707;
+  line-height: 22px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+#tab1 .group .on section h3 {
+  font-size: 15px;
+  color: #232323;
+  line-height: 22px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#tab1 .group .on section p {
+  padding-left: 20px;
+}
+
+#tab1 .group .on section span {
+  display: block;
+  color: #707070;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+#tab1 .group .on section span em {
+  margin: 0 3px 0 -20px;
+}
+
+#tab1 .group .on section.agree_15 p,
+#tab1 .group .on section.agree_16 p {
+  padding-left: 0;
+}
+
+#tab1 .group .tab_3 section:nth-child(1) p {
+  padding-left: 0;
+}
+
+#tab1 .group .tab_3 section table {
+  margin: 10px 0;
+}
+
+#tab1 .group .tab_3 section table,
+#tab1 .group .tab_3 section table td {
+  border: 1px solid;
+}
+
+
+#tab1 > select {
+  width: 150px;
+  height: 38px;
+  float: right;
+  margin-top: 35px;
+}
+
+#tab1 > select {
+  background: url(/resources/images/ico/icon-dropdown.svg) no-repeat center right;
+  background-position: 120px;
+}

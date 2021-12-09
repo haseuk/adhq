@@ -1,0 +1,290 @@
+
+.member_out_zone {
+  width: 1085px;
+  margin: auto;
+}
+
+.member_out_zone .out_top {
+  width: 100%;
+  padding: 70px 0 0px;
+  margin-bottom: 65px;
+}
+
+.out_top::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.member_out {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.member_out a {
+  font-size: 16px;
+  line-height: 20px;
+  color: #4A4A4A;
+}
+
+.out_top h2 {
+  display: inline-block;
+  font-size: 34px;
+  line-height: 41px;
+  font-weight: bold;
+}
+
+.out_top p {
+  float: right;
+}
+
+.out_top p span {
+  color: #B4B4B4;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.out_top p em {
+  color: #3B61D5;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.out_area {
+  width: 100%;
+}
+
+.out_area .out_wrap {
+  border: 1px solid #DCDCDC;
+  text-align: left;
+  padding: 89px 148px;
+}
+
+.out_area .out_wrap section {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.out_area .out_wrap section:nth-child(1) span {
+  font-size: 22px;
+  color: #111111;
+  line-height: 25px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 45px;
+}
+
+.out_area .out_wrap section:nth-child(2) span {
+  display: block;
+  font-size: 16px;
+  line-height: 30px;
+  color: #828282;
+}
+
+.out_area .out_agree {
+  text-align: center;
+  padding: 57px 0 140px;
+}
+
+.out_area .out_agree label {
+  font-size: 16px;
+  line-height: 24px;
+  color: #414141;
+}
+
+.out_area .out_agree span {
+  display: block;
+  font-size: 15px;
+  line-height: 24px;
+  color: #DF0000;
+  margin-left: -40px;
+}
+
+.out_area .out_agree input {
+  width: 20px;
+  height: 20px;
+  vertical-align: text-bottom;
+  margin-right: 10px;
+}
+
+.out_area .out_btn {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.out_area .out_btn a {
+  display: inline-block;
+  width: 380px;
+  height: 74px;
+  line-height: 74px;
+  font-size: 24px;
+  box-shadow: 3px 6px 6px #B4B4B429;
+  border-radius: 4px;
+  
+}
+
+.out_area .out_btn a:first-child {
+  background-color: #fff;
+  color: #3B61D5;
+  border: 1px solid #3B61D5;
+  margin-right: 10px;
+}
+
+.out_area .out_btn a:last-child {
+  background-color: #3B61D5;
+  color: #fff;
+  margin-left: 10px;
+}
+
+
+
+
+/*dialog_start*/
+#dialog_start_1 {
+  height: 189px !important;
+}
+#dialog_start_1 h2{
+  font-size: 26px;
+  line-height: 34px;
+  color: #333;
+  font-weight: normal;
+  text-align: center;
+}
+
+.dialog_box_1 {
+  text-align: center;
+}
+
+.ui-widget-content a {
+  display: inline-block;
+  width: 206px;
+  height: 53px;
+  line-height: 53px;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 74px;
+}
+
+.ui-widget-content a:nth-child(1) {
+  border: 1px solid #3B61D5;
+  color: #3B61D5;
+  margin-right: 5px;
+}
+
+.ui-widget-content a:nth-child(2) {
+  background-color: #3B61D5;
+  color: #fff;
+  margin-left: 5px;
+}
+
+#dialog_start_1 label {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#dialog_start_1 input {
+  position: relative;
+  margin: 0 10px 20px 0;
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+  padding-left: 50px;
+}
+
+.dialog_box_1 img {
+  position: absolute;
+  z-index: 10;
+  left: 120px;
+  top: 135px;
+}
+
+.dialog_box_2 img {
+  position: absolute;
+  z-index: 10;
+  left: 120px;
+  top: 230px;
+}
+
+.dialog_box_3 img {
+  position: absolute;
+  z-index: 10;
+  left: 120px;
+  top: 325px;
+}
+
+
+.dialog_box_1 button {
+  position: relative;
+  color: #3d3cd6;
+  width: 123px;
+  height: 46px;
+  line-height: 46px;
+}
+
+.dialog_box_2 button {
+  background-color: #d9dee5;
+  color: #272d48;
+  width: 123px;
+  height: 46px;
+  line-height: 46px;
+}
+
+.dialog_box_3 button {
+  width: 349px;
+  height: 60px;
+  line-height: 60px;
+  margin: 40px 0 0 0;
+  font-size: 18px;
+  color: #fff;
+  background-color: #3d3cd6;
+  border-radius: 4px;
+}
+
+.dialog_box_3 textarea {
+  width: 349px;
+  height: 139px;
+  border-radius: 4px;
+}
+
+.ui-dialog .ui-dialog-content {
+  background-color: #fff !important;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+  height: 50px !important;
+}
+
+
+.ui-dialog .ui-dialog-titlebar-close {
+  position: relative;
+  width: 50px !important;
+  height: 50px !important;
+  right: 20px !important;
+  top: 20px !important;
+  background-image: url(/resources/images/ico/btn-close-white.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: center 0px !important;
+  background-color: transparent !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  border: 0px !important;
+  border-radius: none !important;
+}
+
+.ui-button-icon {
+  display: none !important;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+  cursor: default !important;
+}
+
+.ui-widget-overlay {
+  position: relative;
+  background-color: #000 !important;
+  opacity: .6 !important;
+}

@@ -1,0 +1,138 @@
+
+/* ##############demo_contents################## */
+.demo_contents #tab1 ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.demo_contents #tab1 ul>li {
+	float: left;
+}
+
+.demo_contents #tab1 > ul {
+  border-bottom: 1px solid #E3E3E3;
+}
+.demo_contents #tab1 ul>li>a {
+	display: block;
+	width: 150px;
+	height: 40px;
+	line-height: 20px;
+	background: transparent;
+	font-size: 18px;
+	font-weight: normal;
+	color: #111;
+	text-align: center;
+
+}
+
+.demo_contents #tab1 ul>li.on>a {
+	background: transparent;
+	color: #3B61D5;
+  opacity: 1;
+  border-bottom: 3px solid #3B61D5;
+}
+.demo_contents #tab1 .group>div {
+	width: 100%;
+	background: transparent;
+	color: #111;
+	text-align: left;
+	display: none;
+	margin: 35px 0;
+}
+.demo_contents #tab1 .group>div.on {
+	display: block;
+}
+
+.demo_contents #tab1 .group>div.on table {
+  width: 100%;
+  text-align: center;
+}
+
+.demo_contents #tab1 .group>div.on table th {
+  font-weight: 600;
+  color: #111111;
+  border-bottom: 1px solid #6B6B6B;
+  padding-bottom: 10px;
+}
+
+.demo_contents #tab1 .group>div.on table tr td  {
+  padding: 20px;
+}
+
+.demo_contents #tab1 .group>div.on table .demo_ing td {
+  background-color: #EFF2FC;
+}
+
+.demo_contents #tab1 .group>div.on table .demo_ing td:nth-child(6) a {
+  color: #3B61D5;
+  border-color: #3B61D5;
+}
+
+.demo_contents #tab1 .group>div.on table td {
+  border-bottom: 1px solid #DEDEDE;
+  padding: 20px 0;
+}
+
+.demo_contents #tab1 .group>div.on table td span {
+  display: block;
+	font-size: 17px;
+	color: #111111;
+	line-height: 22px;
+}
+
+.demo_contents #tab1 .group>div.on table td:nth-child(2) {
+  font-size: 38px;
+  line-height: 45px;
+  color: #3B61D5;
+  font-weight: bold;
+}
+
+.demo_contents #tab1 .group>div.on table td:nth-child(3) {
+  font-size: 35px;
+  line-height: 43px;
+  color: #333;
+  font-weight: normal;
+}
+
+.demo_contents #tab1 .group>div.on table td:nth-child(6) span {
+  font-size: 16px;
+}
+
+.demo_contents #tab1 .group>div.on table td:nth-child(6) a {
+  border: 1px solid #000;
+  display: block;
+  padding: 10px 0;
+  margin-top: 5px;
+}
+
+
+/* ##############tab_2################ */
+
+.demo_contents #tab1 .group>div.tab_2 {
+  text-align: center;
+}
+
+.demo_contents #tab1 .group>div.tab_2 > img {
+  margin: 80px 0 20px;
+}
+
+.demo_contents #tab1 .group>div.tab_2 p span {
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  color: #414141;
+  font-weight: normal;
+}
+
+.demo_contents #tab1 .group>div.tab_2 p a {
+  display: inline-block;
+  width: 384px;
+  height: 74px;
+  line-height: 74px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #3B61D5;
+  box-shadow: 3px 6px 6px #B4B4B429;
+  border-radius: 4px;
+  margin: 100px 0;
+}

@@ -1,0 +1,542 @@
+.sort_box_highlight {
+	align-self:center;
+	width:100%;
+	display: flex;
+   	border: 6px solid #6495ED;
+  	border-radius: 4px 4px 4px 4px; 	
+  }
+.item_slot{
+	cursor: move;
+}
+
+.example_text{
+	font-size: 12pt;
+	color: #cecece;
+	text-align: center;
+	padding-right: 12px;
+}
+
+.ul_wrapper{
+	margin-top : 30px;
+	border-top: 1px solid #ddd;
+	padding-top: 25px;
+}
+
+
+.thumbnail{
+	vertical-align: top;
+}
+.thumbnail img{
+	vertical-align: top !important;
+	width: 251px;
+	height: 153px;
+}
+
+.collection_thumbnail{
+	width: 144px;
+	height: 87px;
+}
+
+.label_for_file{
+	text-align: center;
+    display: block;
+    line-height: 33px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 90px;
+    height: 36px;
+}
+
+
+.portfolio_lst .ul_wrapper .add_box_wrapper{
+ position: relative;
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 190px;
+  border: 2px dotted #DDDDDD;
+}
+
+.portfolio_lst .ul_wrapper .add_box_wrapper button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+header {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+}
+
+header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header div:nth-child(1) {
+  float: left;
+}
+
+header div:nth-child(2) {
+  float: right;
+}
+
+header div:nth-child(2) button {
+  display: inline-block;
+  width: 90px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #ddd;
+  color: #363D46;
+  margin-left: 20px;
+}
+
+header div:nth-child(2) img {
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+
+
+.ad_con {
+  width: 100%;
+}
+
+.ad_con::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.ad_con > section {
+  float: left;
+}
+
+.ad_con > section:nth-child(1) {
+  max-width: 240px;
+  min-width: 12.5%;
+  height: 1080px;
+  padding: 30px 20px;
+}
+
+.ad_con > section:nth-child(2) {
+  width: 87.5%;
+  background: #F2F6FC 0% 0% no-repeat padding-box;
+  padding: 60px 125px;
+} 
+
+.ad_con .portfolio_lst {
+  box-shadow: 0px 3px 16px #00000014;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 40px 30px;
+}
+
+.ad_con .portfolio_lst > div:nth-child(2) {
+  margin: 30px 0 20px;
+}
+
+.ad_con .portfolio_lst div p {
+  display: inline-block;
+}
+
+.ad_con .portfolio_lst div p button {
+  width: 90px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.ad_con .portfolio_lst .thumbnail {
+  display: inline-block;
+  width: 253px; 
+  height: 153px; 
+  line-height: 153px; 
+  text-align: center;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  margin-right: 20px;
+}
+
+.ad_con .portfolio_lst .thumbnail img {
+  vertical-align: sub;
+}
+
+.noinput {
+  display: block;
+  color: #0061F2;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.ad_con .portfolio_lst div p span {
+  display: block;
+  font-size: 14px;
+  color: #999999;
+}
+
+.ad_con .portfolio_lst h3 {
+  font-size: 16px;
+  margin-bottom: 25px;
+  height: 36px;
+  line-height: 36px;
+}
+
+.ad_con .portfolio_lst em {
+  font-size: 18px;
+  color: #0061F2;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.ad_con .portfolio_lst input {
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+}
+
+.thumbnail.noinputborder,
+.ad_con .portfolio_lst input.noinputborder:focus {
+  border: 2px solid #0068ee !important;
+}
+
+
+.ad_con section:nth-child(2) h2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.ad_con section:nth-child(2) .portfolio_detail > div:nth-child(1) {
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+}
+
+.ad_con section:nth-child(2) .portfolio_detail > div:nth-child(1) h3 {
+  margin: 47px 0 29px;
+}
+
+.ad_con .openBtn {
+  float: right;
+  width: 180px;
+  height: 36px; 
+  border: 1px solid #ddd;
+  border-radius: 4px; 
+  text-align: center;
+}
+
+.ad_con section:nth-child(2) .portfolio_detail > div:nth-child(1) h3 img {
+  margin-right: 5px;
+  vertical-align: initial;
+}
+
+.ad_con section:nth-child(2) .portfolio_detail > div:nth-child(2) {
+  position: relative;
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 190px;
+  border: 2px dotted #DDDDDD;
+} 
+
+.ad_con section:nth-child(2) .portfolio_detail > div:nth-child(2) button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ad_con section:nth-child(2) .portfolio_detail > div:nth-child(2) button span {
+  display: block;
+  font-size: 16px;
+  color: #999;
+}
+
+.ad_con section:nth-child(2) div ul li {
+  position: relative;
+  width: 95%;
+  height: 100px;
+  line-height: 100px;
+  background-color: #fff;
+  box-shadow: 0px 3px 16px #00000014;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.ad_con section:nth-child(2) div ul li .tq {
+  margin-bottom: 5.5px;
+}
+
+.ad_con section:nth-child(2) div ul li .qt {
+  position: absolute;
+  right: -50px;
+  top: 38px;
+}
+
+.ad_con section:nth-child(2) div ul li b {
+  padding: 0 65px 0 60px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #363D46;
+}
+
+.ad_con section:nth-child(2) div ul li span {
+  padding-left: 65px;
+  font-size: 16px;
+}
+
+.ad_con section:nth-child(2) div ul li p {
+  float: right;
+  padding-right: 20px;
+}
+
+.ad_con section:nth-child(2) div ul li a {
+  display: inline-block;
+  width: 90px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #363D46;
+  font-size: 16px;
+}
+
+.ad_con section:nth-child(2) div ul li a:last-child {
+  margin-left: 20px;
+  background-color: #4294FC;
+  color: #fff;
+  border: none;
+}
+
+
+.modify_btn {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.modify_btn a {
+  display: inline-block;
+  width: 150px;
+  height: 60px;
+  line-height: 60px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.modify_btn a:last-child {
+  background-color: #363D46;
+  color: #fff;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+.openBtn {
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal .bg {
+  width: 100vw;
+  height: 107vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modalBox {
+  padding : 42px 40px 40px 40px !important;
+  position: absolute;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 16px #00000052;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  width: 860px;
+  height : 90%;
+  text-align: left;
+  padding: 0 50px;
+}
+.modalBox .label_for_item_desc, .sec_label, .label_for_title {
+margin-bottom: 8px;
+}
+
+.modalBox .closeBtn {
+  position: absolute;
+  right: 0;
+  top: -30px;
+  display: block;
+  width: 80px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 17px;
+}
+
+.hidden {
+  display: none;
+}
+
+.modalBox div {
+  margin-bottom: 30px !important;
+}
+
+.modalBox div label {
+  vertical-align: top;
+  display: inline-block;
+  width: 150px;
+  font-size: 16px;
+  color: #363D46;
+}
+
+.modalBox div span,
+.modalBox div b {
+  font-size: 18px;
+}
+
+.modalBox div input:focus {
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #363D46 !important;
+}
+
+.modalBox .imageAndVideo {
+  background: #F2F6FC 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.modalBox section label {
+  width: 100%;
+  font-size: 16px;
+}
+
+.modalBox .sec_label {
+  width: 100%;
+}
+
+.modalBox section div {
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  border: 1px solid #707070;
+  margin: 0 !important;
+  vertical-align: middle;
+  margin-left: 60px !important;
+  background-color: #fff;
+}
+
+.modalBox div input[type='text']{
+	width: 100% !important;
+	
+}
+
+.modalBox section p {
+  vertical-align: middle;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.modalBox section input {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.modalBox section {
+  margin-bottom: 30px;
+}
+
+.modalBox section button {
+  width: 90px;
+  height: 36px;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.modalBox section button.image_modify {
+  background-color: #fff;
+}
+
+.modalBox section button.video_link {
+  background-color: #363D46;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.modalBox section span {
+  display: block;
+  font-size: 14px;
+  color: #999;
+  margin-top: 5px;
+}
+
+.modalBox section label input[type="text"] {
+  width: 60% !important;
+  height: 36px !important;
+  margin-left: 45px;
+}
+
+.modalBox section label input[type="radio"] {
+  margin-right: 10px;
+}
+
+.modalBox .modal_btn {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+
+.modalBox .modal_btn button {
+  width: 150px;
+  height: 60px;
+  border: 1px solid #DDDDDD;
+  color: #363D46;
+  border-radius: 4px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.modalBox .modal_btn button:last-child {
+  background-color: #363D46;
+  color: #fff;
+  border: none;
+  margin: 0 0 0 5px;
+}
+
+.modalBox .modal_btn .btn_add_item {
+  background-color: #363D46;
+  color: #fff;
+  border: none;
+  margin: 0 0 0 5px;
+}
+.modalBox #modal_input_file{
+ display: none;
+}
+.modalBox .modal_img_review{
+ width: 250px;
+ height: 148px; 
+ 
+}

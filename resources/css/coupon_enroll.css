@@ -1,0 +1,137 @@
+.common_top .common_search > div:last-child {
+  float: left;
+  background-color: transparent;
+}
+/* ##############ticket_zone################## */
+
+.ticket_zone .ticket_wrap {
+  text-align: center;
+  padding: 140px 0 139px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #DCDCDC;
+}
+
+.ticket_zone .ticket_wrap .buy_top_txt {
+  margin-bottom: 32px;
+}
+
+.ticket_zone .ticket_wrap .buy_top_txt span {
+  display: block;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000;
+}
+
+.ticket_zone .ticket_wrap .buy_bottom_txt {
+  width: 420px;
+  margin: 10px auto 0px;
+}
+
+.ticket_zone .ticket_wrap .buy_bottom_txt em {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3B61D5;
+  text-align: left;
+  margin-left: -10px;
+}
+
+
+.ticket_zone .ticket_wrap .coupon_input input {
+  width: 443px;
+  height: 49px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.ticket_zone .coupon_caution {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.ticket_zone .coupon_caution em,
+.ticket_zone .coupon_caution span {
+  display: block;
+}
+
+.ticket_zone .coupon_caution em {
+  font-size: 22px;
+  line-height: 25px;
+  color: #2A2A2A;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.ticket_zone .coupon_caution span {
+  font-size: 16px;
+  line-height: 30px;
+  color: #828282;
+}
+
+
+.ticket_zone .buy_btn {
+  margin: 94px 0 200px;
+  text-align: center;
+}
+
+.ticket_zone .buy_btn a {
+  display: inline-block;
+  width: 380px;
+  height: 74px;
+  line-height: 74px;
+  font-size: 24px;
+  box-shadow: 3px 6px 6px #B4B4B429;
+  border-radius: 4px;
+  background-color: #3B61D5;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods {
+  position: relative;
+  width: 290px;
+  height: 156px;
+  background: url(/resources/images/pic/img-ticket-off.svg) no-repeat center center;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods.checked {
+  background: url(/resources/images/pic/img-ticket-on.svg) no-repeat center center;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods.checked.hover {
+  background: url(/resources/images/pic/img-ticket-on.svg) no-repeat center center;
+}
+.ticket_zone .ticket_wrap .ticket_goods.hover {
+  background: url(/resources/images/pic/img-ticket-hover.svg) no-repeat center center;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods p {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods p em {
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods p span {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 19px;
+  color: #bbb;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods p strong {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods p strong span {
+  display: inline-block;
+}

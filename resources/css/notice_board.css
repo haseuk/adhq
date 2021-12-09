@@ -1,0 +1,231 @@
+
+/* ##############comInterview_contents################## */
+.comInterview_contents #tab1 .tab_lst::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.comInterview_contents #tab1 .tab_lst>li {
+  float: left;
+}
+
+.comInterview_contents #tab1 .tab_lst>li>a {
+	display: block;
+	width: 542.5px;
+	height: 54px;
+	line-height: 54px;
+	background: transparent;
+	font-size: 18px;
+	font-weight: normal;
+	color: #AEAEAE;
+	text-align: center;
+  border: 1px solid #DEDEDE;
+  border-bottom: 2px solid #3B61D5;
+}
+
+.comInterview_contents #tab1 .tab_lst>li.on>a {
+	background: transparent;
+	color: #3B61D5;
+  opacity: 1;
+
+  border: 2px solid #3B61D5;
+  border-bottom: none;
+}
+
+.comInterview_contents #tab1 .group>div {
+	width: 100%;
+	background: transparent;
+	color: #111;
+	text-align: left;
+	display: none;
+}
+.comInterview_contents #tab1 .group>div.on {
+	display: block;
+}
+
+
+
+.comInterview_contents #tab1 .group .on {
+  margin-top: 42px;
+}
+.comInterview_contents #tab1 .group .on section .div_wrapper {
+  position: relative;
+  border-bottom: 1px solid #DEDEDE;
+}
+
+
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(1) {
+  float: left;
+  padding-left: 20px;
+}
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(2) {
+  float: right;
+  padding-right: 20px;
+}
+
+.comInterview_contents #tab1 .group .on section .slideToggle_p {
+  display: block;
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  overflow: auto;
+}
+
+.comInterview_contents #tab1 .group .on section .slideToggle_p h4 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(1) span:first-child {
+  color: #3B61D5;
+  margin-right: 8px;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(1) span:last-child {
+  font-size: 17px;
+  line-height: 22px;
+}
+
+
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(2) span {
+  font-size: 17px;
+  line-height: 22px;
+  color: #707070;
+}
+
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(2) button {
+  display: inline-block;
+  margin: -7px 0 0 20px;
+  padding: 5px;
+}
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(2) button::after {
+  content: "";
+  display: inline-block;
+  background: url("/resources/images/ico/icon-dropdown\ \(1\).svg") no-repeat right center;
+  width: 12px;
+  height: 7px;
+}
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(2) button.up::after {
+  content: "";
+  display: inline-block;
+  background: url("/resources/images/ico/icon-dropdown-more\ \(1\).svg") no-repeat right center;
+  width: 12px;
+  height: 7px;
+}
+
+
+.comInterview_contents #tab1 .group .on section .div_wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ##############tab_2################# */
+
+.tab_2 .event_lst {
+  width: 100%;
+}
+
+.tab_2 .event_lst div {
+  width: 49%;
+  float: left;
+  border: 1px solid #D2D2D2;
+  margin-bottom: 20px;
+}
+
+.tab_2 .event_lst div a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 447px;
+}
+
+.tab_2 .event_lst div .more {
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 67%;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  padding-top: 25%;
+  background: rgba(0, 0, 0, .24);
+  font-size: 28px;
+}
+
+
+.tab_2 .event_lst div:nth-child(odd) {
+  margin-right: 10px;
+}
+
+.tab_2 .event_lst div:nth-child(even) {
+  margin-left: 10px;
+} 
+
+
+
+.tab_2 .event_lst div p {
+  padding: 20px;
+  height: 147px;
+  line-height: 22px;
+}
+
+.tab_2 .event_lst div img {
+  height: 300px;
+}
+
+.tab_2 .event_lst div strong,
+.tab_2 .event_lst div span,
+.tab_2 .event_lst div em {
+  display: block;
+}
+
+.tab_2 .event_lst div strong {
+  font-size: 16px;
+  color: #3B61D5;
+  margin-bottom: 5px;
+}
+
+.tab_2 .event_lst div.event_end {
+  pointer-events: none;
+}
+
+.tab_2 .event_lst div:last-child {
+  margin-bottom: 45px;
+}
+
+.tab_2 .event_lst div a img.event_end {
+  opacity: .7;
+}
+
+.tab_2 .event_lst div strong.event_end {
+  font-size: 15px;
+  color: #BBBABA;
+}
+
+.tab_2 .event_lst div span {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.tab_2 .event_lst div span.event_end {
+  color: #989898;
+}
+
+.tab_2 .event_lst div em {
+  font-size: 16px;
+  color: #979797;
+}
+

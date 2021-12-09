@@ -1,0 +1,331 @@
+@charset "UTF-8";
+
+
+/* 전체 컨텐츠 영역 wrapper 사이즈 조정 :: 임시로 설정하였으며 , 추후 환경에 따라 변경하여 사용 */
+.contents_wrapper{
+	height: 1200px;
+}
+
+
+/* +++++++++++++++++++++ 컬렉션 팝업 스타일 : open +++++++++++++++++++++ */
+
+/* 팝업 모달 오픈시 뒷배경 스타일 정의 */
+.addcol_modal {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 12px;
+}
+
+/* 팝업창 내부 테두리 */
+.popup-inner{
+	border-radius: 6px;
+}
+
+/* 팝업모달 컨텐츠 : 파일업로드 버튼 숨기고 라벨 스타일정의 */
+.addcol_modal .label_for_file { 
+	display : inline-block;
+	width : 80px;
+	height : 25px;
+	line-height : 25px;
+	border: 2px solid #808080;
+	cursor :pointer;
+}
+
+ /* 컬렉션추가 팝업 모달 닫기버튼 */
+.addcol_modal_close {
+	position: absolute;
+	display: block;
+	width : 20px;
+	height : 25px;
+	top: 10px;
+	right: 10px;
+	background-color : #696969;
+	color : white;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* 아이템 등록 팝업 모달 */
+.additem_modal {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 12px;
+}
+
+/* 팝업모달 컨텐츠 : 파일업로드 버튼 숨기고 라벨 스타일정의 */
+.additem_modal .label_for_file { 
+	display : inline-block;
+	width : 80px;
+	height : 25px;
+	line-height : 25px;
+	border: 2px solid #808080;
+	cursor :pointer;
+}
+
+
+ /* 컬렉션추가 팝업 모달 닫기버튼 */
+.additem_modal_close {
+	position: absolute;
+	display: block;
+	width : 20px;
+	height : 25px;
+	top: 10px;
+	right: 10px;
+	background-color : #696969;
+	color : white;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* 팝업 모달 컨텐츠 영역 : 좌측 */
+.modal_area_left{
+	float : left;
+	width: 35%;
+	text-align: center;
+}
+/* 팝업 모달 컨텐츠 영역 : 우측 */
+.modal_area_right{
+	float : right;
+	width: 60%;
+	text-align: center;
+}
+
+/* 팝업 모달 내부 스타일 정의 : inner */
+.popup-inner { 
+	position: absolute;
+	width: 50%;
+	height: 45%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	background: #fff;
+}
+
+/* 팝업모달 컨텐츠 영역 하위 모든 file type의 입력태그 정의 */
+.popup-contents  input[type="file"]{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0
+}
+
+/* 컬렉션 썸네일 영역 이미지 존재시 */
+.collcetion_thumb_area{
+	border: 2px #808080;
+	border-style : dashed;
+	width: 100%;
+	height: 300px;
+	margin: 0 0 10px 0;
+}
+
+/* 컬렉션 썸네일 영역 이미지 미존재시 :: line height 줘서 가운데 맞춤 */
+.collcetion_thumb_area.no-img{
+	border: 2px #808080;
+	border-style : dashed;
+	width: 100%;
+	height: 300px;
+	line-height : 300px;
+	margin: 0 0 10px 0;
+}
+
+/* 썸네일 영역 가운데 + 마크 삽입 */
+.collcetion_thumb_area .add_marker{
+	font-size: 50px;
+	color: #808080;
+}
+
+/* 모달내부 공통 :  헤더 타이틀 */
+.title_direction{
+	display :inline-block;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+/* 모달내부 좌측 : 안내문구 영역 */
+.area_direction{
+	color: red;
+	margin-top : 5px;
+	text-align: left;
+}
+
+/* 모달내부 우측 : 입력 영역 */
+.area_input{
+	text-align: left;
+}
+
+/* 모달 내부 우측 : 입력영역 : 하위 모든 섹션 */
+.area_input section{
+	display : inline-block;
+	margin-bottom: 10px;
+	width:  520px;
+}
+
+/* 모달 내부 우측 : 입력영역 : name 섹션 입력필드 */
+.area_input .sect_name .input_colname{
+	width : 80%;
+}
+
+/* 모달 내부 우측 : 입력영역 : title 섹션 입력필드 */
+.area_input .sect_title .input_title{
+	width : 90%;
+}
+
+/* 모달 내부 우측 : 입력영역 : contents 섹션 입력필드 */
+.area_input .label_for_contents{
+	display: inline-block;
+	vertical-align: top;
+}
+/* 모달 내부 우측 : 입력영역 : contents 섹션 입력필드 */
+.input_contents{
+	width: 470px;
+	height: 267px;
+	resize: none;
+}
+
+
+/* --------------------- 컬렉션 팝업 스타일  : close  --------------------- */
+
+
+
+/* +++++++++++++++++++++ 컬렉션 리스트 style : start +++++++++++++++++++++  */
+
+/* 로드된 컬렉션 리스트 각 슬롯 style */
+.collection_slot{
+	background-repeat: no-repeat;
+	background-position: center center;	
+	background-size: cover;
+	width: 240px;
+	height: 240px;
+	margin : 10px 10px 10px 10px;	
+	float: left;
+	text-align: center;
+}
+
+/* 컬렉션 리스트 내부 :: 각 슬롯 대표이미지 사이즈 설정 */
+.collection_slot img{
+	width: inherit;
+	height: inherit;
+}
+
+
+
+/* 컬렉션 슬롯 hover :: style 설정 */
+.collection_slot:hover img{
+   -webkit-transition: opacity .25s ease;
+}
+
+/* 컬렉션 리스트 하위 :: float 속성 조정 용 :: 가상인자 */
+.area_collection_lst:after {
+	content: "";
+	display: block;
+	clear: both; 
+}
+
+
+/* 컬렉션 리스트 하위 :: 리스트 각 슬롯 하위 :: 썸네일 img 태그 :: 폐기됨 */
+.area_collection_lst .collection_thumb .col_thumb_nail{
+	width: 240px;
+	height: 240px;
+}
+
+/* 컬렉션 리스트 하위 :: 리스트 각 슬롯 하위 :: 보이기/숨기기 설정된 수정 버튼 위치 조정 */
+.area_collection_lst .collection_slot .hover_btn{
+	position: relative;
+	bottom: 70%;
+}
+
+/* 컬렉션 리스트 내부 :: 각 슬롯 :: 컬렉션 정보 */
+.collection_slot .collection_info{
+	position: relative;
+	bottom: 80%;
+	display: none;
+	color: #fff;
+	opacity: 0.9;
+	text-align: left; 
+	cursor: default;
+	padding-left: 10px;
+}
+
+/* --------------------- 컬렉션 리스트 style : end ---------------------  */
+
+
+
+/* +++++++++++++++++++++ 컬렉션 아이템 리스트 style : start +++++++++++++++++++++  */
+
+/* 전체 아이템 리스트 영역 */
+.area_items_lst{
+	display: none;
+}
+
+/* 아이템 리스트 하위 :: 각 아이템 슬롯 */
+.area_items_lst .item_slot{
+	background-repeat: no-repeat;
+	background-position: center center;	
+	background-size: cover;
+	width: 240px;
+	height: 240px;
+	margin : 10px 10px 10px 10px;	
+	float: left;
+	text-align: center;
+}
+
+/* 아이템 리스트 하위 :: float 속성 조정 용 :: 가상인자 */
+.area_items_lst:after {
+	content: "";
+	display: block;
+	clear: both; 
+}
+
+
+/* 각 아이템 슬롯 하위 :: 이미지 사이즈 설정 */
+.item_slot img{
+	width: inherit;
+	height: inherit;
+}
+
+/* 각 아이템 슬롯  하위 :: 아이템 정보 스타일 */
+.item_slot .item_info{
+	display: none;
+	color: #fff;
+	opacity: 0.9;
+	text-align: left; 
+	cursor: default;
+	padding-left: 10px;
+	position: relative;
+	bottom: 80%;
+}
+
+/* 아이템 슬롯 hober :: style 정의 */
+.item_slot:hover img{
+   -webkit-transition: opacity .25s ease;
+}
+
+/* 컬렉션 리스트 하위 :: 리스트 각 슬롯 하위 :: 보이기/숨기기 설정된 수정 버튼 위치 조정 */
+.area_items_lst .item_slot .hover_btn{
+	position: relative;
+	bottom: 70%;
+}
+/* --------------------- 컬렉션 아이템 리스트 style : end ---------------------  */
+
+
+
+
+
+
+
+

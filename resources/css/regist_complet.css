@@ -1,0 +1,150 @@
+.complet_zone {
+  width: 100%;
+  text-align: center;
+
+}
+
+.complet_zone .com_area .com_lt,
+.complet_zone .com_area .com_rt {
+  float: left;
+  height: 100vh;
+}
+
+.complet_zone .com_area .com_lt {
+  position: relative;
+  width: 40%;
+  background: url(/resources/images/bg/img-back-login.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.complet_zone .com_area .com_lt::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+
+
+.complet_zone .com_area .com_lt p {
+  position: relative;
+  z-index: 10;
+  padding-top: 351px;
+}
+
+.complet_zone .com_area .com_lt p span {
+  display: block;
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 118px;
+}
+
+.complet_zone .com_area .com_lt p img {
+  padding-bottom: 393px;
+}
+
+.complet_zone .com_area .com_lt p span em {
+  font-weight: bold;
+}
+
+.complet_zone .com_area .com_rt {
+  position: relative;
+  text-align: left;
+  width: 60%;
+}
+
+.complet_zone .com_area .com_rt_wrap {
+  width: 380px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 195px 0;
+}
+
+.complet_zone .com_area .com_rt .com_rt_top h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 45px;
+  padding-bottom: 6px;
+}
+
+.complet_zone .com_area .com_rt .com_rt_top span {
+  display: block;
+  font-size: 30px;
+  line-height: 45px;
+  padding-bottom: 60px;
+}
+
+.complet_zone .com_area .com_rt .com_coupon p {
+  background: #F8F8F8 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.complet_zone .com_area .com_rt .com_coupon p span {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.complet_zone .com_area .com_rt .com_coupon p span em {
+  position: relative;
+  font-weight: bold;
+}
+
+.complet_zone .com_area .com_rt .com_coupon p span em::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  bottom: 0;
+  right: 0;
+  background: #3B61D5 0% 0% no-repeat padding-box;
+  opacity: 0.3;
+
+}
+
+.complet_zone .com_area .com_rt .com_coupon p img {
+  margin-top: 20px;
+}
+
+.complet_zone .com_area .com_rt .com_coupon > span {
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+  margin: 15px 0 70px;
+}
+
+.complet_zone .com_area .com_rt .com_coupon > span em {
+  color: #3B61D5;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.complet_zone .com_area .com_rt .com_btn a {
+  display: block;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.complet_zone .com_area .com_rt .com_btn a:nth-child(1) {
+  background: #000000 0% 0% no-repeat padding-box;
+}
+
+.complet_zone .com_area .com_rt .com_btn a:nth-child(2) {
+  background: #3B61D5 0% 0% no-repeat padding-box;
+  margin-top: 15px;
+}
+

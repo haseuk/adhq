@@ -1,0 +1,168 @@
+
+/* ##############ticket_zone################## */
+
+.ticket_zone .ticket_wrap {
+  text-align: center;
+  padding: 51px 0;
+  background-color: #F8F8F8;
+  border: 1px solid #DCDCDC;
+}
+
+.ticket_zone .ticket_wrap .buy_top_txt {
+  margin-bottom: 35px;
+}
+
+.ticket_zone .ticket_wrap .buy_top_txt span {
+  display: block;
+  font-size: 26px;
+  line-height: 36px;
+  color: #333;
+}
+
+.ticket_zone .ticket_wrap .buy_contents section {
+  display: inline-block;
+  width: 40%;
+}
+
+.ticket_zone .ticket_wrap .buy_contents section:nth-child(1) {
+  width: 240px;
+  height: 355px;
+}
+
+.ticket_zone .ticket_wrap .buy_contents section:nth-child(2) {
+  width: 350px;
+  margin-left: 40px;
+  vertical-align: bottom;
+  margin-bottom: 27px;
+
+}
+
+.ticket_zone .ticket_wrap .buy_contents table {
+  display: table;
+  border-top: 2px solid #979797;
+  border-bottom: 2px solid #979797;
+}
+
+.ticket_zone .ticket_wrap .buy_contents table tr td {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+.ticket_zone .ticket_wrap .buy_contents table tr td:nth-child(1) {
+  font-size: 15px;
+  line-height: 22px;
+  color: #111111;
+  width: 100px;
+}
+.ticket_zone .ticket_wrap .buy_contents table tr td:nth-child(2) {
+  font-size: 15px;
+  line-height: 20px;
+  color: #4A4A4A;
+  text-align: left;
+  width: 150px;
+}
+.ticket_zone .ticket_wrap .buy_contents table tr td em {
+  font-size: 13px;
+  line-height: 36px;
+}
+
+.ticket_zone .ticket_wrap .buy_bottom_txt {
+  margin-top: 47px;
+}
+
+.ticket_zone .ticket_wrap .buy_bottom_txt span {
+  font-size: 15px;
+  color: #414141;
+  line-height: 24px;
+  display: block;
+}
+
+.ticket_zone .ticket_wrap .buy_bottom_txt span em {
+  color: #3B61D5;
+  text-decoration: underline;
+}
+
+
+
+
+
+.ticket_zone .buy_btn {
+  margin: 100px 0 135px;
+  text-align: center;
+}
+
+.ticket_zone .buy_btn a {
+  display: inline-block;
+  width: 380px;
+  height: 74px;
+  line-height: 74px;
+  font-size: 24px;
+}
+
+.ticket_zone .buy_btn a:first-child {
+  box-shadow: 3px 6px 6px #B4B4B429;
+  border: 2px solid #3B61D5;
+  border-radius: 4px;
+  color: #3B61D5;
+  margin-right: 10px;
+}
+
+.ticket_zone .buy_btn a:last-child {
+  box-shadow: 3px 6px 6px #B4B4B429;
+  border-radius: 4px;
+  background-color: #3B61D5;
+  color: #fff;
+  margin-left: 10px;
+}
+
+
+
+
+
+.ticket_zone .ticket_wrap .ticket_goods {
+  position: relative;
+  width: 290px;
+  height: 156px;
+  background: url(/resources/images/pic/img-ticket-off.svg) no-repeat center center;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods.checked {
+  background: url(/resources/images/pic/img-ticket-on.svg) no-repeat center center;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods.checked.hover {
+  background: url(/resources/images/pic/img-ticket-on.svg) no-repeat center center;
+}
+.ticket_zone .ticket_wrap .ticket_goods.hover {
+  background: url(/resources/images/pic/img-ticket-hover.svg) no-repeat center center;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods p {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods p em {
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods p span {
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 19px;
+  color: #bbb;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods p strong {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.ticket_zone .ticket_wrap .ticket_goods p strong span {
+  display: inline-block;
+}

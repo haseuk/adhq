@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="all" />
+	  <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"/>
+		<link rel="stylesheet" type="text/css" href="/resources/css/common/style.css"/>
+		<link rel="stylesheet" href="/resources/css/indv/adhq_main.css">
+		<script type="text/javascript" src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="/resources/js/jQuery/jquery-3.5.0.min.js"></script>
+	<script src="/resources/js/slick/slick.min.js"></script>
+	<script src="/resources/js/front.js"></script>
+    <title>IM</title>
+</head>
+<body>
+	
+ 
+</body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+<!-- <script src="resources/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+<script src="/resources/js/common/common.js"></script>
+<script>
+	
+  const open = () => {
+    document.querySelector(".modal").classList.remove("hidden");
+  }
+
+  const close = () => {
+    document.querySelector(".modal").classList.add("hidden");
+  }
+
+  document.querySelector(".openBtn").addEventListener("click", open);
+  document.querySelector(".closeBtn").addEventListener("click", close);
+	document.querySelector(".bg").addEventListener("click", close);
+
+
+
+
+	const open_head = () => {
+    document.querySelector(".modal_head").classList.remove("hidden_head");
+  }
+
+  const close_head = () => {
+    document.querySelector(".modal_head").classList.add("hidden_head");
+  }
+
+  document.querySelector(".openBtn_head").addEventListener("click", open_head);
+  document.querySelector(".closeBtn_head").addEventListener("click", close_head);
+	document.querySelector(".bg_head").addEventListener("click", close_head);
+	
+
+
+
+	const open_dir = () => {
+		document.querySelector(".modal_dir").classList.remove("hidden_dir");
+		
+  }
+
+  const close_dir = () => {
+    document.querySelector(".modal_dir").classList.add("hidden_dir");
+  }
+
+  document.querySelector(".openBtn_dir").addEventListener("click", open_dir);
+  document.querySelector(".closeBtn_dir").addEventListener("click", close_dir);
+	document.querySelector(".bg_dir").addEventListener("click", close_dir);
+
+
+
+
+</script>
+</html>

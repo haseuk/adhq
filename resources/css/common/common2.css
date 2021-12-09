@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* ------ temporary style set ------ */
+.mascot{
+	width: 200px;
+	height: 200px;
+}
+/* ################################# */
+
+
+/* ---- header footer style set ---- */
+
+.common_layout{
+	text-align: center;
+	height : 100px;
+	position: relative;
+	/*line-height: 100px;*/
+	
+}
+.area_header{
+	width : 100%;
+	background-color: #6495ED;
+	
+}
+
+/* common layout -> div vertical align */
+.area_header span{
+	position: absolute;
+	top : 50%;
+	left : 50%;
+	transform : translate(-50%, -50%);
+}
+
+.area_footer{
+	width : 100%;
+	background-color: #1E90FF;
+}
+/* ################################# */
+

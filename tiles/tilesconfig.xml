@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+   <!-- base page set -->
+   <definition name="main-layout" template="/WEB-INF/common/layout/base_main.jsp">
+       <put-attribute name="header" value="/WEB-INF/common/layout/header.jsp" />
+       <put-attribute name="body" value="" />
+       <put-attribute name="footer" value="/WEB-INF/common/layout/footer.jsp" />
+   </definition>
+   
+   <!-- base page set -->
+   <definition name="login-layout" template="/WEB-INF/common/layout/login_main.jsp">
+       <put-attribute name="body" value="" />
+   </definition>
+   
+   <!-- base page set -->
+   <definition name="client-layout" template="/WEB-INF/common/layout/client_main.jsp">
+       <put-attribute name="body" value="" />
+   </definition>
+   
+  <!-- 컨트롤러가 받는 Mapping 요청명이 definition 의 name 속성에 해당한다. -->
+  <!-- 요청명의 형식을 위와 같이 받았다면 , value 에서는 해당 요청에 어떤 jsp를 매핑시켜 출력시킬지 작성하면된다. -->
+  <!-- 보편적으로 anonymous, member, admin 등의 권한으로 나누어서 진행되기때문에 {1} 과 {2} 정도만 쓰일 것 -->
+   <definition name="manager/*" extends="main-layout">
+       <put-attribute name="body" value="/WEB-INF/views/manager/{1}.jsp" />
+   </definition>
+   <definition name="manager/*/*" extends="main-layout">
+       <put-attribute name="body" value="/WEB-INF/views/manager/{1}/{2}.jsp" />
+   </definition>
+   
+   <definition name="client/*" extends="client-layout">
+       <put-attribute name="body" value="/WEB-INF/views/client/{1}.jsp" />
+   </definition>
+   <definition name="client/*/*" extends="client-layout">
+       <put-attribute name="body" value="/WEB-INF/views/client/{1}/{2}.jsp" />
+   </definition>
+   
+    <definition name="login/mgr_login" extends="login-layout">
+       <put-attribute name="body" value="/WEB-INF/views/manager/mgr_login.jsp" />
+   </definition>
+   
+   
+   
+</tiles-definitions>
+

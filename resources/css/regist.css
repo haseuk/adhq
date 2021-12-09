@@ -1,0 +1,437 @@
+.regist_zone {
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.regist_zone .regist_area .regit_lt,
+.regist_zone .regist_area .regit_rt {
+  float: left;
+
+}
+
+.regist_zone .regist_area .regit_lt {
+  position: relative;
+  width: 40%;
+  background: url(/resources/images/bg/img-back-login.jpg) no-repeat center right;
+  background-size: cover;
+  padding: 351px 0 637px;
+} 
+
+.regist_zone .regist_area .regit_lt::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+
+
+.regist_zone .regist_area .regit_lt p {
+  position: relative;
+  z-index: 10;
+  /* padding-top: 351px; */
+}
+
+.regist_zone .regist_area .regit_lt p span {
+  display: block;
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 118px;
+}
+
+.regist_zone .regist_area .regit_lt p img {
+  /* padding-bottom:637px; */
+}
+
+.regist_zone .regist_area .regit_lt p span em {
+  font-weight: bold;
+}
+
+.regist_zone .regist_area .regit_rt {
+  position: relative;
+  text-align: left;
+  width: 60%;
+}
+
+.regist_zone .regist_area .regist_rt_wrap {
+  position: absolute;
+  width: 380px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 60px 0 58px;
+}
+
+.regist_zone .regist_area .regit_rt .regist_rt_top h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 45px;
+  padding-bottom: 6px;
+}
+
+.regist_zone .regist_area .regit_rt .regist_rt_top span {
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  padding-bottom: 30px;
+}
+
+.regist_zone .regist_area .regit_rt form .email_form label,
+.regist_zone .regist_area .regit_rt form .pw_zone label {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+.regist_zone .regist_area .regit_rt form .pw_zone input {
+  width: 380px;
+  height: 30px;
+  border: none;
+  padding: 0;
+  border-bottom: 2px solid #FF6D6D;
+}
+
+.regist_zone .regist_area .regit_rt form .pw_zone {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.regist_zone .regist_area .regit_rt form .pw_zone div:first-child img {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+.regist_zone .regist_area .regit_rt form .pw_zone div:first-child {
+  margin-bottom: 10px;
+}
+
+.regist_zone .regist_area .regit_rt form .pw_zone div:last-child img {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+}
+
+.regist_zone .regist_area .regit_rt form .pw_zone span {
+  display: block;
+  line-height: 20px;
+  font-size: 12px;
+  color: #FF6D6D;
+}
+
+.regist_zone .regist_area .regit_rt form .pw_zone input::placeholder {
+  font-size: 14px;
+}
+
+.regist_zone .regist_area .regit_rt form .regist_btn {
+  padding-top: 30px;
+}
+
+.regist_zone .regist_area .regit_rt form .regist_btn > a {
+  display: block;
+  width: 380px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.regist_zone .regist_area .regit_rt form .log_btn p {
+  text-align: left;
+  font-size: 14px;
+}
+
+.regist_zone .regist_area .regit_rt form .log_btn p input {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+
+.regist_zone .regist_area .regit_rt form .log_btn p a {
+  float: right;
+}
+
+.regist_zone .regist_area .regit_rt form .log_sns {
+  width: 100%;
+  position: relative;
+  padding-top: 40px;
+  text-align: center;
+}
+.regist_zone .regist_area .regit_rt form .log_sns::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ddd;
+}
+
+.regist_zone .regist_area .regit_rt form .log_sns span {
+  display: block;
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+
+.regist_zone .regist_area .regit_rt form .log_sns ul {
+  display: inline-block;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.regist_zone .regist_area .regit_rt form .log_sns ul li {
+  float: left;
+  width: 58px;
+  height: 58px;
+  line-height: 46px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+
+.regist_zone .regist_area .regit_rt form .log_sns ul li:nth-child(1) {
+  background-color: #03CF5D;
+}
+
+.regist_zone .regist_area .regit_rt form .log_sns ul li:nth-child(2) {
+  background-color: #FFE400;
+}
+
+.regist_zone .regist_area .regit_rt form .log_sns ul li:nth-child(3) {
+  background-color: #1E4BA0;
+}
+
+.regist_zone .regist_area .regit_rt form .log_sns ul li:nth-child(4) {
+  background-color: #000000;
+  margin-right: 0;
+}
+
+.regist_rt_wrap .regist_btn {
+  width: 100%;
+  margin-top: 13px;
+  text-align: center;
+}
+
+.regist_rt_wrap .regist_btn span {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  background: #F8F9FD 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  padding: 9px 0;
+}
+
+.regist_rt_wrap .regist_btn span a {
+  font-weight: 600;
+  vertical-align: baseline;
+  text-decoration: underline;
+  text-underline-position: under;
+  margin-left: 5px;
+}
+
+.regist_rt_wrap .regist_btn img {
+  display: block;
+  margin-top: 45px;
+  background: #F8F9FD 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  padding: 9px 0;
+}
+
+
+/* ##############agree_zone##############  */
+
+.agree_zone table tr:last-child {
+  text-align: center;
+}
+
+.agree_zone table {
+  background-color: #F8F9FD;
+  padding: 18px;
+  border-radius: 4px;
+}
+
+.agree_zone table label em {
+  color: #FF6D6D;
+}
+
+.agree_zone input {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+
+
+.agree_zone label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -1.5px;
+}
+
+.agree_zone input {
+
+}
+
+/* ##############regist_form############### */
+
+.regist_form {
+  padding-top: 38px;
+}
+
+.regist_form label em {
+  color: #FF6D6D;
+}
+
+.regist_form select {
+  cursor: pointer;
+}
+
+.regist_form input,
+.regist_form select {
+  height: 34px !important;
+}
+
+.regist_form form .email_form .e_input {
+  margin-bottom: 15px;
+}
+
+.regist_form form .email_form .e_input label,
+.regist_form form .email_form .e_input input,
+.regist_form form .email_form .e_input select  {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.regist_form form .email_form .e_input b {
+  margin: 0 10px;
+}
+
+.regist_form form .email_form .e_input input,
+.regist_form form .email_form .e_input select {
+  width: 120px;
+  padding: 0;
+  border: none;
+  border-bottom: 2px solid #3B61D5;
+}
+
+.regist_form form .email_form .e_input select {
+  text-align: center;
+  background: url(/resources/images/ico/icon-dropdown.svg) no-repeat center right;
+}
+
+.regist_form form .email_form button {
+  float: right;
+  width: 70px;
+  height: 30px;
+  border: 1px solid #3B61D5;
+  color: #3B61D5;
+  border-radius: 14px;
+  font-size: 14px;
+}
+
+.regist_form form .email_form .e_certi {
+  margin-bottom: 20px;
+}
+
+.regist_form form .email_form .e_certi input {
+  position: relative;
+  width: 80%;
+  height: 30px;
+  padding: 0;
+  border: none;
+}
+
+.regist_form form .email_form .e_certi div:first-child {
+  border-bottom: 2px solid #3B61D5;
+}
+
+.regist_form form .email_form .e_certi div:last-child a {
+  color: #3B61D5;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+
+/* ##############etc_info################ */
+
+.etc_info {
+  width: 100%;
+}
+
+.etc_info input,
+.etc_info select {
+  height: 30px;
+  border: none !important;
+  padding: 0;
+}
+
+.etc_info input::placeholder {
+  font-size: 14px;
+}
+
+.etc_info div {
+  margin-bottom: 10px;
+}
+
+.etc_info .name_info input {
+  width: 100%;
+  border-bottom: 1px solid #ddd !important;
+}
+
+.etc_info .birth_info select {
+  background: url(/resources/images/ico/icon-dropdown.svg) no-repeat center right;
+}
+
+.etc_info .birth_info input,
+.etc_info .birth_info select {
+  border-bottom: 1px solid #ddd !important;
+  width: 31%;
+  margin-right: 10px;
+}
+
+.etc_info .birth_info select:last-child {
+  margin-right: 0;
+}
+
+.etc_info .gender_info label:nth-child(2),
+.etc_info .gender_info label:nth-child(3) {
+  display: inline-block !important;
+  width: 100px;
+}
+
+.etc_info .gender_info label input {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.etc_info .attention_info select {
+  display: inline-block;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd !important;
+  width: 48.2%;
+  background: url(/resources/images/ico/icon-dropdown.svg) no-repeat center right;
+}
+
+.etc_info .attention_info #occupation {
+  margin-right: 10px;
+}
+
+.etc_info .recommand_id input {
+  width: 100%;
+  border-bottom: 1px solid #ddd !important;
+}

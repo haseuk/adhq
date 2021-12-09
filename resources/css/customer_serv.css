@@ -1,0 +1,443 @@
+
+/* ##############comInterview_contents################## */
+.comInterview_contents #tab1 .tab_lst::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.comInterview_contents #tab1 .tab_lst>li {
+  float: left;
+}
+
+.comInterview_contents #tab1 .tab_lst>li>a {
+	display: block;
+	width: 217px;
+	height: 54px;
+	line-height: 54px;
+	background: transparent;
+	font-size: 18px;
+	font-weight: normal;
+	color: #AEAEAE;
+	text-align: center;
+  border: 1px solid #DEDEDE;
+  border-bottom: 2px solid #3B61D5;
+}
+
+.comInterview_contents #tab1 .tab_lst>li.on>a {
+	background: transparent;
+	color: #3B61D5;
+  opacity: 1;
+
+  border: 2px solid #3B61D5;
+  border-bottom: none;
+}
+
+.comInterview_contents #tab1 .group>div {
+	width: 100%;
+	background: transparent;
+	color: #111;
+	text-align: left;
+	display: none;
+}
+.comInterview_contents #tab1 .group>div.on {
+	display: block;
+}
+
+.comInterview_contents #tab1 .group .on {
+  margin-top: 42px;
+}
+.comInterview_contents #tab1 .group .on section .div_wrapper {
+  position: relative;
+  border-bottom: 1px solid #DEDEDE;
+}
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(1) {
+  float: left;
+  padding-left: 20px;
+}
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(2) {
+  float: right;
+  padding-right: 20px;
+}
+
+.comInterview_contents #tab1 .group .on section .slideToggle_p {
+  display: block;
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+}
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(1) span:first-child {
+  color: #3B61D5;
+  margin-right: 8px;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(1) span:last-child {
+  font-size: 17px;
+  line-height: 22px;
+}
+
+
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(2) span {
+  font-size: 17px;
+  line-height: 22px;
+  color: #707070;
+}
+
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(2) button {
+  display: inline-block;
+  margin: -7px 0 0 20px;
+  padding: 5px;
+}
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(2) button::after {
+  content: "";
+  display: inline-block;
+  background: url("/resources/images/ico/icon-dropdown\ \(1\).svg") no-repeat right center;
+  width: 12px;
+  height: 7px;
+}
+
+.comInterview_contents #tab1 .group .on section .div_wrapper > div:nth-child(2) button.up::after {
+  content: "";
+  display: inline-block;
+  background: url("/resources/images/ico/icon-dropdown-more\ \(1\).svg") no-repeat right center;
+  width: 12px;
+  height: 7px;
+}
+
+
+.comInterview_contents #tab1 .group .on section .div_wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+
+
+.super_tab {
+  position: relative;
+  width: 100%;
+}
+
+.super_tab::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 53px;
+  width: 100%;
+  height: 1px;
+  background: #ddd;
+}
+
+.super_tab #con1,
+.super_tab #con2 {
+  display: none;
+}
+
+.super_tab > input {
+  display: none;
+}
+
+.super_tab input:checked + label {
+  font-size: 18px;
+  color: #3B61D5;
+  border-bottom: 3px solid #3B61D5;
+}
+
+#t1:checked ~ #con1,
+#t2:checked ~ #con2  {
+  display: block;
+}
+
+.super_tab > label.on {
+  display: inline-block;
+  margin-right: -4px;
+  width: 84px;
+  margin-bottom: 40px;
+  height: 54px;
+	line-height: 54px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #AEAEAE;
+  text-align: center;
+  border: none;
+
+}
+
+.super_tab > label {
+  display: inline-block;
+  margin-right: -4px;
+  width: 84px;
+  margin-bottom: 40px;
+  height: 54px;
+	line-height: 54px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #AEAEAE;
+  text-align: center;
+  border: none;
+}
+
+
+
+
+
+
+
+/* ##############tab_2################# */
+
+#con2 #tab2 .tab_lst::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#con2 #tab2 .tab_lst>li {
+  float: left;
+}
+
+#con2  #tab2 .tab_lst>li>a {
+	display: block;
+	width: 542px;
+	height: 54px;
+	line-height: 54px;
+	background: transparent;
+	font-size: 18px;
+	font-weight: normal;
+	color: #AEAEAE;
+	text-align: center;
+  border: 1px solid #DEDEDE;
+  border-bottom: 2px solid #3B61D5;
+}
+
+#con2 #tab2 .tab_lst>li.on>a {
+	background: transparent;
+	color: #3B61D5;
+  opacity: 1;
+
+  border: 2px solid #3B61D5;
+  border-bottom: none;
+}
+
+#con2  #tab2 .group>div {
+	width: 100%;
+	background: transparent;
+	color: #111;
+	text-align: left;
+	display: none;
+}
+#con2  #tab2 .group>div.on {
+  display: block;
+  margin-top: 42px;
+}
+
+#con2 .group .on.custom_que {
+  margin-top: 40px;
+}
+
+#con2 .group .on.custom_que > section:nth-child(1),
+#con2 .group .on.custom_que > section:nth-child(2) {
+  float: left;
+  width: 250px;
+  height: 34px;
+}
+
+#con2 .group .on.custom_que::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#con2 .group .on.custom_que > section:nth-child(1) select {
+  height: 34px;
+  width: 205px;
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 18px;
+  background: url(/resources/images/ico/icon-dropdown.svg) no-repeat right center;
+  background-position: 170px;
+  padding-left: 20px;
+}
+
+#con2 .group .on.custom_que > section:nth-child(2) {
+  width: 835px;
+  margin-bottom: 40px;
+}
+
+#con2 .group .on.custom_que > section:nth-child(2) input {
+  width: 100%;
+  height: 34px;
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 18px;
+}
+
+#con2 .group .on.custom_que section span {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#con2 .group .on.custom_que section textarea {
+  position: relative;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+#con2 .group .on.custom_que section textarea::placeholder {
+  text-align: left;
+  font-size: 14px;
+  line-height: 25px;
+  color: #BBBABA;
+}
+
+#con2 .group .on.custom_que section #test_cnt {
+  position: absolute;
+  right: 20px;
+  bottom: 230px;
+  font-size: 15px;
+  color: #3A3A3A;
+}
+
+#con2 .group .on.custom_que p {
+  margin: 13px 0 38px;
+}
+
+#con2 .group .on.custom_que p span {
+  display: block;
+  color: #3B61D5;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+#con2 .group .on.custom_que a {
+  margin: 0 auto 100px;
+  display: block;
+  width: 380px;
+  height: 74px;
+  line-height: 74px;
+  background-color: #3B61D5;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+
+
+
+#con2 .tab_2 section .div_wrapper {
+  position: relative;
+  border-top: 2px solid #ddd;
+  border-bottom: 1px solid #DEDEDE;
+}
+
+#con2 .tab_2 section .div_wrapper > div:nth-child(1) {
+  float: left;
+  padding-left: 40px;
+}
+
+#con2 .tab_2 section .div_wrapper > div:nth-child(2) {
+  float: right;
+  padding-right: 20px;
+}
+
+#con2 .tab_2 section .slideToggle_p {
+  position: relative;
+  display: block;
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  overflow: auto;
+}
+
+
+
+#con2 .tab_2 section .slideToggle_p > section h4 {
+  font-weight: bold;
+  color: #3B61D5;
+}
+
+#con2 .tab_2 section .slideToggle_p > section h4 span {
+  color: #000;
+  margin-left: 10px;
+}
+
+#con2 .tab_2 section .slideToggle_p > section div {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#con2 .tab_2 section .slideToggle_p > section div p {
+  margin-left: 26px;
+  margin-top: 20px;
+}
+
+#con2 .tab_2 section .slideToggle_p > section div:first-child {
+  margin-bottom: 40px;
+}
+
+#con2 .tab_2 section .div_wrapper > div:nth-child(1) span:first-child {
+  color: #3B61D5;
+  margin-right: 8px;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+#con2 .tab_2 section .div_wrapper > div:nth-child(1) span:last-child {
+  font-size: 17px;
+  line-height: 22px;
+}
+
+#con2 .tab_2 section .div_wrapper > div:nth-child(2) span {
+  font-size: 17px;
+  line-height: 22px;
+  color: #707070;
+}
+
+#con2 .tab_2 section .div_wrapper > div:nth-child(2) .que_history_ing {
+  margin-left: 80px;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+}
+
+
+#con2 .tab_2 section .div_wrapper > div:nth-child(2) button {
+  display: inline-block;
+  margin: -7px 0 0 20px;
+  padding: 5px;
+}
+
+#con2 .tab_2 section .div_wrapper > div:nth-child(2) button::after {
+  content: "";
+  display: inline-block;
+  background: url("/resources/images/ico/icon-dropdown\ \(1\).svg") no-repeat right center;
+  width: 12px;
+  height: 7px;
+}
+
+#con2 .tab_2 section .div_wrapper > div:nth-child(2) button.up::after {
+  content: "";
+  display: inline-block;
+  background: url("/resources/images/ico/icon-dropdown-more\ \(1\).svg") no-repeat right center;
+  width: 12px;
+  height: 7px;
+}
+
+
+#con2 .tab_2 section .div_wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+

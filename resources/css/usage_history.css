@@ -1,0 +1,156 @@
+
+.usage_history_zone {
+  width: 1085px;
+  margin: auto;
+}
+
+.usage_history_zone .usage_history_top {
+  width: 100%;
+  padding: 70px 0 40px;
+}
+
+.usage_history_top::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.usage_history_top h2 {
+  display: inline-block;
+  font-size: 34px;
+  line-height: 41px;
+  font-weight: bold;
+}
+
+.usage_history_top p span {
+  color: #B4B4B4;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.usage_history_top p em {
+  color: #3B61D5;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.usage_history_top .comInterview_search {
+  width: 100%;
+  padding: 20px;
+  background: #F2F4FA 0% 0% no-repeat padding-box;
+}
+
+.usage_history_top .comInterview_search::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.usage_history_top .comInterview_search > div:first-child {
+  float: left;
+}
+
+.usage_history_top .comInterview_search > div:first-child > div:first-child {
+  margin-bottom: 7px;
+}
+
+.usage_history_top .comInterview_search > div:last-child {
+  float: right;
+}
+.usage_history_top .comInterview_search > div:last-child a {
+  display: inline-block;
+  width: 160px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  background-color: #3B61D5;
+  color: #fff;
+  font-size: 16px;
+}
+.usage_history_top .comInterview_search h3 {
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  color: #636363;
+}
+
+.usage_history_top .comInterview_search h3 em {
+  font-size: 17px;
+  line-height: 20px;
+  color: #000;
+}
+
+/* ##############history_contents################## */
+.history_contents #tab1 ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.history_contents #tab1 ul>li {
+	float: left;
+}
+
+.history_contents #tab1 > ul {
+  border-bottom: 1px solid #E3E3E3;
+}
+.history_contents #tab1 ul>li>a {
+	display: block;
+	width: 130px;
+	height: 40px;
+	line-height: 20px;
+	background: transparent;
+	font-size: 18px;
+	font-weight: normal;
+	color: #111;
+	text-align: center;
+}
+
+.history_contents #tab1 ul>li.on>a {
+	background: transparent;
+	color: #3B61D5;
+  opacity: 1;
+  border-bottom: 3px solid #3B61D5;
+}
+.history_contents #tab1 .group>div {
+	width: 100%;
+	background: transparent;
+	color: #111;
+	text-align: left;
+	display: none;
+}
+.history_contents #tab1 .group>div.on {
+	display: block;
+}
+
+.history_contents #tab1 .group table {
+  text-align: center;
+  padding: 40px 0 200px;
+}
+
+.history_contents #tab1 .group table th {
+  border-bottom: 2px solid #6B6B6B;
+  padding: 0px 0 10px;
+  font-size: 17px;
+  line-height: 20px;
+  color: #111111;
+}
+
+.history_contents #tab1 .group table tr td {
+  color: #090707;
+  padding: 20px 0;
+  font-size: 17px;
+  line-height: 22px;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.history_contents #tab1 .group table tr td span:first-child {
+  margin-right: 10px;
+}
+
+.history_contents #tab1 .group table tr td:nth-child(1) {
+  color: #111111;
+  padding: 28px 0 22px;
+  font-weight: bold;
+}
+
+
