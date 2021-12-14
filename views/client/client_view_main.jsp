@@ -15,11 +15,11 @@
 						<p>
 							<img src="/resources/images/pic/img-aboutus.svg" alt="">
 							<img src="/resources/images/pic/img-txtaboutus.svg" alt="">
-							<span>규모가 아니라 시장을 통하는 전략으로<br/>영업력이 아니라 날카로운 크리에이티브로 승부합니다.<br/>클라이언트와 함께 숨쉬고 소비자와 함께 호흡하며 “시장을 의도한 대로 이끌어가는 컨트롤 타워”<br/>대한민국 건설부동산광고의 중심에 언제나 Advertising Head Quarter ADHQ가 있습니다.</span>
+							<span>규모가 아니라 시장을 통하는 전략으로<br /> 영업력이 아니라 날카로운 크리에이티브로<br class="mo"> 승부합니다.<br class="web"/>클라이언트와 함께 숨쉬고<br class="mo"> 소비자와 함께 호흡하며 “시장을 의도한 대로<br class="mo"> 이끌어가는 컨트롤 타워”<br class="web"/>대한민국<br class="mo"> 건설부동산광고의 중심에 언제나 Advertising<br class="mo"> Head Quarter ADHQ가 있습니다.</span>
 							<section class="m_map">
 								<img src="/resources/images/pic/img-aboutusmap.png" alt="">
 							</section>
-							<section>
+							<section class="web">
 								<img class="m_margin_1" src="/resources/images/pic/img-logoadhq.svg" alt="">
 								<span>서울특별시 강남구 역삼동 773-3번지</span>
 								<span>영광빌딩 9층</span>
@@ -140,7 +140,7 @@
         <div class="modalBox">
           <div class="inner">
             <p class="tit">2021년</p>
-            <ul>
+            <ul class="web">
               <li><p>2021년</p><p>1월</p><p>태영건설 의왕 오전나구역 광고대행사 선정</p></li>
               <li><p>2021년</p><p>1월</p><p>한강 덕은지구 더 지웰</p></li>
               <li><p>2021년</p><p>1월</p><p>향동지구 더 지웰</p></li>
@@ -156,6 +156,15 @@
               <li><p>2021년</p><p>8월</p><p>현대산업개발 청라국제도시 아이파크 광고대행사</p></li>
               <li><p>2021년</p><p>9월</p><p>대우산업개발 의정부 이안 더 센트로 광고대행사 선정</p></li>
             </ul>
+            <ul class="mo">
+              <li><p>2021년</p><p>1월</p><p>태영건설 의왕 오전나구역 광고대행사 선정</p><p>한강 덕은지구 더 지웰</p><p>향동지구 더 지웰</p></li>
+              <li><p>2021년</p><p>4월</p><p>버밀리언 남삼</p><p>한화 포레나 서충주 광고대행사 선정</p></li>
+              <li><p>2021년</p><p>5월</p><p>디엘이앤씨 2021-2022 광고대행사 선정</p><p>창동민지역사 디오트 창동민지역사 아레나X스퀘어 광고대행사 선정</p><p>부성종합건설 의정부 이안 더 메트로 광고대행사 선정</p></li>
+              <li><p>2021년</p><p>6월</p><p>2022학년도 모집 광운대학교 연간광고대행사 선정</p><p>도담산업개발 남포동 생활형숙박시설 PJT(더 베이먼트 2차) 광고대행사 선정</p></li>
+              <li><p>2021년</p><p>7월</p><p>해피투게더하우스 동탄역 현대 위버포레 광고대행사 선정</p></li>
+              <li><p>2021년</p><p>8월</p><p>라온건설 대구 시지 라온프라이빗 광고대행사 선정</p><p>현대산업개발 청라국제도시 아이파크 광고대행사</p></li>
+              <li><p>2021년</p><p>9월</p><p>대우산업개발 의정부 이안 더 센트로 광고대행사 선정</p></li>
+            </ul>
           </div>
           <button class="closeBtn">X Close</button>
         </div>
@@ -166,7 +175,7 @@
         <div class="modalBox">
           <div class="inner">
             <p class="tit">2020년</p>
-            <ul>
+            <ul class="web">
               <li><p>2020년</p><p>1월</p><p>(주)한강그룹 고양시 삼송지구 지식산업센터 광고대행사 선정</p></li>
               <li><p>2020년</p><p>1월</p><p>2020년 SM그룹 연간광고대행사 선정</p></li>
               <li><p>2020년</p><p>2월</p><p>호반써밋 목동 광고대행사 선정</p></li>
@@ -182,6 +191,15 @@
               <li><p>2020년</p><p>9월</p><p>동일토건 미사동일 넥서스 광고대행사 선정</p></li>
               <li><p>2020년</p><p>10월</p><p>시티건설 화성 남양 시티프라디움 4차 광고대행사 선정</p></li>
             </ul>
+            <ul class="mo">
+              <li><p>2020년</p><p>1월</p><p>(주)한강그룹 고양시 삼송지구 지식산업센터 광고대행사 선정</p><p>2020년 SM그룹 연간광고대행사 선정</p></li>
+              <li><p>2020년</p><p>2월</p><p>호반써밋 목동 광고대행사 선정</p></li>
+              <li><p>2020년</p><p>3월</p><p>신세계건설(주) 빌리브 패러그라프 해운대 광고대행사 선정</p><p>우남건설 여주역 우남퍼스트빌 광고대행사 선정</p><p>신원종합개발 부평삼산 신원아침도시 광고대행사 선정</p></li>
+              <li><p>2020년</p><p>6월</p><p>시티건설 울산대현 시티프라다움 광고대행사 선정</p><p>신영건설 대구 청라힐 지웰 더 센트로 광고대행사 선정</p><p>도담산업개발 남포동 생활형숙박시설 PJT 광고대행사 선정</p></li>
+              <li><p>2020년</p><p>8월</p><p>도곡동 도시형생활주택(하이엔드주거시설) PJT 광고대행사 선정</p><p>신세계건설 남산 생활형숙박시설 PJT 광고대행사 선정</p><p>태영건설 과천지식정보타운 S5BL 광고대행사 선정</p></li>
+              <li><p>2020년</p><p>9월</p><p>동일토건 미사동일 넥서스 광고대행사 선정</p></li>
+              <li><p>2020년</p><p>10월</p><p>시티건설 화성 남양 시티프라디움 4차 광고대행사 선정</p></li>
+            </ul>
           </div>
           <button class="closeBtn">X Close</button>
         </div>
@@ -192,7 +210,7 @@
         <div class="modalBox">
           <div class="inner">
             <p class="tit">2019년</p>
-            <ul>
+            <ul class="web">
               <li><p>2019년</p><p>1월</p><p>2019년 SM그룹 연간광고대행사 선정</p></li>
               <li><p>2019년</p><p>1월</p><p>대한토지신탁 SWEET M 브랜드 연간광고대행사 선정</p></li>
               <li><p>2019년</p><p>1월</p><p>동양건설산업 검단 파라곤 광고대행사 선정</p></li>
@@ -208,6 +226,15 @@
               <li><p>2019년</p><p>9월</p><p>(주)대원 대구시청 대원칸타빌 광고대행사 선정</p></li>
               <li><p>2019년</p><p>10월</p><p>유승종합건설 시흥 장현 유승한내들 광고대행사 선정</p></li>
             </ul>
+            <ul class="mo">
+              <li><p>2019년</p><p>1월</p><p>2019년 SM그룹 연간광고대행사 선정</p><p>대한토지신탁 SWEET M 브랜드 연간광고대행사 선정</p><p>동양건설산업 검단 파라곤 광고대행사 선정</p></li>
+              <li><p>2019년</p><p>2월</p><p>금강주택 신내역 금강펜테리움 센트럴파크 광고대행사 선정</p><p>대림산업 e편한세상 금빛 그랑메종 광고대행사 선정(5,320세대)</p></li>
+              <li><p>2019년</p><p>3월</p><p>호반건설 송파 호반 써밋 l ll, 광고대행사 선정(2019년연간광고대행사선정)</p><p>라온건설 대구 신매동 라온프라이빗 광고대행사 선정</p></li>
+              <li><p>2019년</p><p>4월</p><p>한신공영 순천 한신 더휴 광고대행사 선정</p></li>
+              <li><p>2019년</p><p>6월</p><p>대윤개발 동탄2지 원시설용지 38-1BL 광고대행사 선정</p><p>삼성 위버포레 광고대행사 선정</p><p>2020학년도 모집 광운대학교 연간광고대행사 선정</p></li>
+              <li><p>2019년</p><p>9월</p><p>(주)하나이앤씨 해운대 우동 생활형숙박시설 광고대행사 선정(신세계건설시공)</p><p>(주)대원 대구시청 대원칸타빌 광고대행사 선정</p></li>
+              <li><p>2019년</p><p>10월</p><p>유승종합건설 시흥 장현 유승한내들 광고대행사 선정</p></li>
+            </ul>
           </div>
           <button class="closeBtn">X Close</button>
         </div>
@@ -216,7 +243,7 @@
 	</section>
 
 	<footer>
-		<span>Copyright(C)2013 <b>ADHQ</b> Corporation. ALL RIGHT RESERVED.</span>
+		<span>Copyright(C)2013 <b>ADHQ</b> Corporation.<br class="mo"> ALL RIGHT RESERVED.</span>
 	</footer>
 
 <script src="/resources/js/indv/client_view_main.js"></script>

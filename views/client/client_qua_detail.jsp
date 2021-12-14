@@ -11,7 +11,7 @@
 	<div class="quality_zone">
 		<div class="qua_top">
 			<img src="/resources/images/pic/txt-img-quality.svg" alt=""> <span>“Creative
-				Essence” 경험과 노하우로 클라이언트를 찾아갑니다.</span>
+				Essence” 경험과 노하우로 클라이언트를<br class="mo"> 찾아갑니다.</span>
 		</div>
 		<div class="qua_bottom">
 			<ul>
@@ -40,8 +40,8 @@
 												
 												
 												<c:when test="${item.media_type eq  '2'}">
-													<div class="zz" style="z-index: 999; position: relative; width: 68%; heigth: 395px; padding-top: 50%">
-														<iframe width="100%" height="395" src="${item.video_link}" title="YouTube video player"
+													<div class="zz" style="z-index: 999; position: relative; width: 68%; padding-top: 40%">
+														<iframe width="100%" src="${item.video_link}" title="YouTube video player"
 															frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 															allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 													</div>
@@ -70,7 +70,7 @@
 	</div>
 </div>
 <footer>
-	<span>Copyright(C)2013 <b>ADHQ</b> Corporation. ALL RIGHT
+	<span>Copyright(C)2013 <b>ADHQ</b> Corporation.<br class="mo"> ALL RIGHT
 		RESERVED.
 	</span>
 </footer>
