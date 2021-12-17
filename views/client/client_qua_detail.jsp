@@ -40,7 +40,7 @@
 												
 												
 												<c:when test="${item.media_type eq  '2'}">
-													<div class="zz" style="z-index: 999; position: relative; width: 68%; padding-top: 40%">
+													<div class="zz" style="z-index: 999; position: relative;">
 														<iframe width="100%" src="${item.video_link}" title="YouTube video player"
 															frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 															allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>

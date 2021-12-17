@@ -114,6 +114,12 @@
 .modalBox_dir .swiper-container .swiper-wrapper .swiper-slide p b {
   margin-top: -30px;
 }
+.modalBox_dir .swiper-container .swiper-wrapper .swiper-slide p span .web {
+  display: inline-block;
+}
+.modalBox_dir .swiper-container .swiper-wrapper .swiper-slide p span .mo {
+  display: none;
+}
 .modalBox_dir .swiper-container .swiper-pagination {
   left: 50%!important;
   bottom: 0!important;
@@ -130,10 +136,11 @@
   margin-bottom: 30px;
   border-radius: 20px;
   position: relative;
+  overflow: hidden;
 }
 .quality_zone .qua_bottom ul li img {
   width: auto;
-  height: 120px;
+  height: 175%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -178,7 +185,7 @@ footer span .mo {
     display: none!important;
   }
   .yearly {
-    bottom: 10%;
+    bottom: 8%;
   }
   .yearly a {
     font-family: 'Roboto', sans-serif !important;
@@ -240,9 +247,8 @@ footer span .mo {
     max-width: 720px;
   }
   .super_container .img_wrap {
-    position: relative;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 18.75vw);
     margin: auto;
     left: auto;
     top: auto;
@@ -294,15 +300,15 @@ footer span .mo {
     margin: 0;
   }
   .super_container > .img_wrap .aboutus_img {
-    position: absolute;
-    left: 0;
+    position: absolute!important;
+    left: 5%;
     top: 50%;
     bottom: auto;
     margin-top: -60%;
     width: 35%;
   }
   .super_container > .img_wrap .head_img {
-    position: absolute;
+    position: absolute!important;
     left: auto;
     top: 50%;
     bottom: auto;
@@ -311,7 +317,7 @@ footer span .mo {
     width: 42%;
   }
   .super_container > .img_wrap .dir_img {
-    position: absolute;
+    position: absolute!important;
     left: 5%;
     top: 50%;
     bottom: auto;
@@ -319,7 +325,7 @@ footer span .mo {
     width: 36%;
   }
   .super_container > .img_wrap .quality_img {
-    position: absolute;
+    position: absolute!important;
     left: auto;
     right: 16%;
     top: 50%;
@@ -362,12 +368,43 @@ footer span .mo {
   .modalBox_head p span .mo {
     display: inline-block;
   }
+  .modalBox_dir .swiper-container {
+    box-sizing: border-box;
+  }
+  .modalBox_dir .swiper-container .swiper-wrapper {
+    height: auto;
+  }
+  .modalBox_dir .swiper-container .swiper-wrapper .swiper-slide {
+    box-sizing: border-box;
+  }
+  .modalBox_dir .swiper-container .swiper-wrapper .swiper-slide p img {
+    width: 85%;
+    margin: 3vw auto 0;
+  }
+  .modalBox_dir .swiper-container .swiper-wrapper .swiper-slide p b {
+    margin-top: 7vw;
+  }
+  .modalBox_dir .swiper-container .swiper-wrapper .swiper-slide p span .web {
+    display: none;
+  }
+  .modalBox_dir .swiper-container .swiper-wrapper .swiper-slide p span .mo {
+    display: inline-block;
+  }
+  .modalBox_dir .swiper-container .swiper-pagination {
+    left: 50%!important;
+    bottom: 0!important;
+    transform: translateX(-50%);
+  }
   .modalBox section.m_map {
     margin-top: 5vw;
   }
   .modalBox_head section ul li {
     font-size: 3.3vw;
     width: auto;
+  }
+  .modalBox .zz .item_thumb {
+    width: auto;
+    height: 100%;
   }
   .quality_container .quality_zone {
     padding: 10vw 3.125vw;
@@ -384,15 +421,39 @@ footer span .mo {
   .quality_zone .qua_bottom {
     width: 100%;
   }
-  .quality_zone .qua_bottom .con_wrap .modal .bg {
-    display: none;
-  }
   .quality_zone .qua_bottom .con_wrap .modal .modalBox {
     width: 93.75vw;
-    height: auto;
+    height: 156.25vw;
     border: none;
-    padding-bottom: 10vw;
-    margin-top: 42vw;
+    top: 50%;
+    margin-top: -78vw;
+  }
+  .quality_zone .qua_bottom .con_wrap .modal .modalBox .swiper-container {
+    padding-top: 15vw!important;
+    box-sizing: border-box;
+  }
+  .quality_zone .qua_bottom .con_wrap .modal .modalBox .swiper-container .swiper-slide {
+    height: 130vw!important;
+    overflow: auto!important;
+  }
+  .quality_zone .qua_bottom .con_wrap .modal .modalBox .swiper-container .swiper-slide .swiper_top {
+    font-size: 4.6875vw;
+    text-align: left;
+    margin-bottom: 4vw;
+  }
+  .quality_zone .qua_bottom .con_wrap .modal .modalBox .swiper-container .swiper-slide .zz {
+    width: 100%;
+    height: 90vw;
+    border: none;
+    overflow: auto;
+  }
+  .quality_zone .qua_bottom .con_wrap .modal .modalBox .swiper-container .swiper-slide .zz img {
+    width: 100%;
+    height: auto;
+  }
+  .quality_zone .qua_bottom .con_wrap .modal .modalBox .swiper-container .swiper-slide .swiper_bottom {
+    font-size: 4.375vw;
+    margin-top: 4vw;
   }
   .quality_zone .qua_bottom .con_wrap .modal .modalBox .swiper-container .swiper-pagination {
     bottom: 93% !important;
@@ -411,15 +472,16 @@ footer span .mo {
     margin-bottom: 3.75vw;
   }
   .quality_zone .qua_bottom ul .con_wrap button li img {
-    height: 100%;
+    height: 150%;
   }
   footer {
     line-height: normal;
+    height: 18.75vw;
   }
   footer span {
-    font-size: 4.0625vw;
+    font-size: 4vw;
     font-weight: 300;
-    padding-top: 1%;
+    padding-top: 3%;
     box-sizing: border-box;
     line-height: normal;
   }

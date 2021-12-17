@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <link rel="stylesheet" href="/resources/css/indv/adhq_main.css">
-<link rel="stylesheet" href="/resources/css/edi-style.css">
+<link rel="stylesheet" href="/resources/css/edi-style.css?v2">
 
  <section class="super_container">
 		<div class="img_wrap">
@@ -101,21 +101,21 @@
 										<p>
 											<img src="/resources/images/pic/img-direcv2.svg" alt="">
 											<b>Campaign</b>
-											<span>도시의 구조나 마스터 플랜을 바꿀 수는 없습니다.<br/>하지만 광고를 통해 도시의 가치를 찾아내고 도시의 색깔을 만들어 갈 수는 있습니다.<br/>불모지가 멋진 도시로 만들어지는 모습에서 광고의 힘을 새삼 느낍니다.</span>
+											<span>도시의 구조나 마스터 플랜을 바꿀 수는 없습니다.<br/>하지만 광고를 통해 도시의 가치를 찾아내고 도시의 색깔을 만들어 갈 수는 있습니다.<br class="web"/>불모지가 멋진 도시로 만들어지는 모습에서 광고의 힘을 새삼 느낍니다.</span>
 										</p>
 									</div>
 									<div class="swiper-slide">
 										<p>
 											<img src="/resources/images/pic/img-direcv3.svg" alt="">
 											<b>Marketing</b>
-											<span>생각도 다르고 반응도 다릅니다. 한자리에 앉아서는 알 수 없습니다.<br/>시시각각 변화하는 시장의 트랜드를 읽고 소비자의 NEEDS를 반영하여<br/>세심하고 날이 선 전략으로 승부합니다.</span>
+											<span>생각도 다르고 반응도 다릅니다.<br class="mo"> 한자리에 앉아서는 알 수 없습니다.<br/>시시각각 변화하는 시장의 트랜드를 읽고 소비자의 NEEDS를 반영하여<br class="web"/>세심하고 날이 선 전략으로 승부합니다.</span>
 										</p>
 									</div>
 									<div class="swiper-slide">
 										<p>
 											<img src="/resources/images/pic/img-direcv4.svg" alt="">
 											<b>Solution</b>
-											<span>아파트, 오피스텔, 오피스, 상업시설까지 복합된 대규모 프로젝트…<br/>제품개발 아이데이션 참여는 물론 커뮤니케이션 전략수립, 광고제작, 미디어플랜, 효과분석까지<br/>마케팅의 모든 제반활동을 체계적으로 지원해서 복합단지의 큰 그림을 그려갑니다.</span>
+											<span>아파트, 오피스텔, 오피스, 상업시설까지<br class="mo"> 복합된 대규모 프로젝트…<br/> 제품개발 아이데이션 참여는 물론<br class="mo"> 커뮤니케이션 전략수립, 광고제작, 미디어플랜, 효과분석까지<br/>마케팅의 모든 제반활동을 체계적으로 지원해서 복합단지의 큰 그림을 그려갑니다.</span>
 										</p>
 									</div>
 								</div>
